@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Dictionary",
+  "version": "1.0",
+  "description": "Find the meaning of words quickly without needing to switch or open a new tab and search for meaning/definition of word.",
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
