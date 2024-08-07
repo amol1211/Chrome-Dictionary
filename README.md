@@ -31,7 +31,7 @@ A Chrome extension that lets you find the meaning of any word you do not know in
 1. **Clone or Download the Repository:**
 
    ```bash
-   git clone https://github.com/amol1211/Chrome Dictionary.git
+   git clone https://github.com/amol1211/Chrome-Dictionary.git
    ```
 
 2. **Open Chrome Extensions Page:**
@@ -70,4 +70,4 @@ Configures the extension's metadata and permissions.
 
 ## ⚠️ Important Note
 
-This extension doesn't require any background functionality, hence you don't need to include the background field in your manifest.json file(I added it because it's a standard practice/convention). The background service worker is only necessary if you have tasks or events that need to be handled independently of the popup or content scripts.
+1. This extension doesn't require any background functionality, hence you don't need to include the background field in your manifest.json file(I added it because it's a standard practice/convention). The background service worker is only necessary if you have tasks or events that need to be handled independently of the popup or content scripts.
