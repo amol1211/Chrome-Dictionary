@@ -33,27 +33,3 @@ function fetchDefinition(word) {
       console.error("Error:", error);
     });
 }
-
-/*document.getElementById('searchBtn').addEventListener('click', () => {
-  const word = document.getElementById('wordInput').value.trim();
-  if (word) {
-    fetchDefinition(word);
-  }
-});
-
-function fetchDefinition(word) {
-  const apiKey = 'YOUR_API_KEY'; // Replace with your dictionary API key
-  const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
-
-  fetch(url)
-    .then(response => response.json())
-    .then(data => {
-      const meaning = data[0].meanings[0].definitions[0].definition;
-      document.getElementById('definition').innerText = meaning;
-    })
-    .catch(error => {
-      document.getElementById('definition').innerText = 'Error fetching definition.';
-      console.error('Error:', error);
-    });
-}
-*/
